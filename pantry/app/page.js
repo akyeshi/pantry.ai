@@ -42,8 +42,8 @@ export default function LandingPage()
                             <Typography variant="h4" sx={{fontWeight: "bold"}}>Where To Find The Code?</Typography>
                             <Typography variant="h6">
                                 The source code for this project can be found in my Github Repository: <br></br>
-                                <a href="https://github.com/JeremiahD9/Pantry-Tracker/blob/main/README.md" target="_blank" rel="noopener noreferrer">
-                                    https://github.com/JeremiahD9/Pantry-Tracker/blob/main/README.md
+                                <a href="https://github.com/akyeshi/pantry.ai/tree/main/pantry#readme" target="_blank" rel="noopener noreferrer">
+                                    https://github.com/akyeshi/pantry.ai/tree/main/pantry#readme
                                 </a>
                             </Typography>
                         </Card>
