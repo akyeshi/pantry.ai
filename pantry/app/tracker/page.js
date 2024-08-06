@@ -134,7 +134,7 @@ export default function Home() {
         <AppBar bgcolor="#EEC643" position="sticky" width="100%">
           <Toolbar bgcolor="#EEC643">
             <FaCubesStacked size={30} style={{marginRight: "5px !important"}}/>
-            <Typography variant="h4" component="div" sx={{flexGrow: .35}}>Pantry Tracker</Typography>
+            <Typography variant="h4" component="div" sx={{flexGrow: .35}}>Pantry AI</Typography>
             <Stack direction="row" spacing = {2} display="flex" justifyContent="center" alignItems="center" sx={{transform: "translate(10%, 0%)"}}>
               <Button variant=""  href="/"><Typography variant="h5">Home</Typography></Button>
               <Button variant=""  href="/tracker"><Typography variant="h5">Tracker</Typography></Button>
