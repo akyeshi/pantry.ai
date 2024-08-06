@@ -5,8 +5,13 @@ dotenv.config();
 import { OpenAI } from "openai";
 import fs from "fs";
 
-const openai = new OpenAI();
+// const openai = new OpenAI();
 // const base64Image = fs.readFileSync("", {encoding: "base64"});
+
+// Initialize OpenAI with the API key from environment variables 
+const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+});
 
 export async function POST(request) {
     const { imageUrl } = await request.json();
